@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        /* Main container for the navbar */
+        .navbar-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 30px;
+            /* Adjust padding as needed */
+            background-color: #cce6ff;
+            /* Light blue background color */
+            border-radius: 20px;
+            /* Rounds the edges */
+            max-width: 1200px;
+            /* Optional: limits the width of the navbar */
+            margin: 100px 100px;
+            /* Centers the navbar on the page */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Logo styling */
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        /* Logo icon styling */
+        .logo img {
+            height: 40px;
+            /* Adjust size as needed */
+            margin-right: 10px;
+        }
+
+        /* Links styling */
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            /* Space between links */
+        }
+
+        /* Link style */
+        .nav-links a {
+            text-decoration: none;
+            color: #000;
+            font-size: 18px;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar-container">
+        <!-- Logo Section -->
+        <div class="logo">
+            <!-- You can replace this with an <img> tag if you have a logo image -->
+            <span>TBM</span><span>TheBuildersMart</span>
+        </div>
+
+        <!-- Links Section -->
+        <div class="nav-links">
+            <a href="#">Our Products</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
